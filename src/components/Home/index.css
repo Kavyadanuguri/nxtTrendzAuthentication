@@ -1,0 +1,88 @@
+/* Write your CSS code here */
+.home-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.home-h1 {
+  font-family: 'roboto';
+  width: 500px;
+  font-size: 50px;
+}
+.home-p1 {
+  font-family: 'roboto';
+  color: #64748b;
+  width: 520px;
+}
+.home-btn {
+  background-color: #0b69ff;
+  border-width: 0px;
+  border-radius: 7px;
+  width: 100px;
+  height: 40px;
+  color: #ffffff;
+  font-family: 'roboto';
+  margin-top: 10px;
+}
+.home-img1 {
+  width: 470px;
+  height: 470px;
+  margin-top: 80px;
+  margin-left: 0px;
+}
+@media screen and (max-width: 768px) {
+  .home-display1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home-h1 {
+    font-family: 'roboto';
+    width: 250px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home-bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home-p1 {
+    font-family: 'roboto';
+    color: #64748b;
+    width: 300px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .btn-con {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 769px) {
+  .img-display {
+    display: none;
+  }
+}
+@media screen and (max-width: 769px) {
+  .img-display {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home-img1 {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 0px;
+    text-align: center;
+  }
+}
